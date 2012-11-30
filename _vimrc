@@ -239,7 +239,7 @@ if has("gui_running")
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme torte
+    colorscheme default
 endif
 
 " Paste from clipboard
@@ -311,13 +311,13 @@ let ropevim_extended_complete=1
 let ropevim_vim_completion=1
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
-"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-"autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-"autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-"autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-"autocmd FileType c set omnifunc=ccomplete#Complete
-"
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+autocmd FileType c set omnifunc=ccomplete#Complete
+
 function! PreviewDown()
 if !&previewwindow 
 silent! wincmd P 
@@ -333,4 +333,6 @@ imap <C-p> <M-/>
 let g:ropevim_autoimport_modules = ["os", "base64", "shutil"]
 
 nmap <C-a> :RopeAutoImport<CR>
+nmap <CR><CR> :let @/=""<CR>
 
+highlight PmenuSel ctermbg=White ctermfg=Red gui=bold
