@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/jijia/temp/dotfiles/_vim/bundle/ropevim'
+let g:netrw_dirhist_2='/home/jijia/temp/dotfiles/_vim/bundle'
+let g:netrw_dirhist_3='/home/jijia/temp/dotfiles/_vim/bundle/ropevim'
+let g:netrw_dirhist_4='/home/jijia/temp/dotfiles/_vim/bundle/ropevim/doc'
+let g:netrw_dirhist_5='/home/jijia/temp/dotfiles/_vim/bundle/ropevim/ftplugin/python/libs'
+let g:netrw_dirhist_6='/home/jijia/temp/dotfiles/_vim/bundle/ropevim/ftplugin/python/libs/rope'
+let g:netrw_dirhist_7='/home/jijia/temp/dotfiles/_vim/bundle/ropevim/ftplugin/python/libs'
+let g:netrw_dirhist_8='/home/jijia/temp/dotfiles/_vim/bundle/ropevim/ftplugin/python/libs/rope'
