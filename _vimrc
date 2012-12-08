@@ -337,3 +337,5 @@ nmap <C-a> :RopeAutoImport<CR>
 nmap <CR><CR> :let @/=""<CR>
 
 highlight PmenuSel ctermbg=DarkGray ctermfg=Magenta gui=bold
+
+nmap <leader>d :bp<CR>:bd #<CR>
